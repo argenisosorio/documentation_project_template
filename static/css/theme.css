@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+body {
+  font-family: "OpenSans-Light", sans-serif;
+  /*background: #f4f4f4;*/
+  /*padding-top: 70px;*/
+  padding-bottom: 30px;
+  background: #aaaebc;
+  background: url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.col-sm-1 {
+  -ms-flex: 0 0 5%;
+  flex: 0 0 5%;
+  max-width: 5%;
+}
+.col-sm-11 {
+  -ms-flex: 0 0 95%;
+  flex: 0 0 95%;
+  max-width: 95%;
+}
+.columna-izquierda {
+  /*min-height: 1000px;*/
+  min-height: 100vh;
+  background: #343e48;
+  color: #FFFFFF;
+}
+.fa-columna-izquierda {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+.text-columna-izquierda {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+.columna-derecha {
+  /*border: ridge 1px blue;*/
+}
+.enlace_azul_sistema {
+  color: #343e48;
+}
+.text-green {
+  color: green;
+}
+.btn-default {
+  border: ridge 1px green;
+}
+.caja-izquierda {
+  /*border: ridge 1px blue;*/
+  /*border-right: 3px solid lightgray*/
+}
+.caja-derecha {
+  border: ridge 1px lightgray;
+  background: #FFFFFF;
+}
