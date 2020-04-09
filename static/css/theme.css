@@ -27,7 +27,8 @@ body {
 .columna-izquierda {
   /*min-height: 1000px;*/
   min-height: 100vh;
-  background: #343e48;
+  /*background: #343e48;*/
+  background-color: rgba(0,0,0,0.5);
   color: #FFFFFF;
 }
 .fa-columna-izquierda {
