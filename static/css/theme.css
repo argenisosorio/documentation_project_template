@@ -4,11 +4,8 @@
 }
 body {
   font-family: "OpenSans-Light", sans-serif;
-  /*background: #f4f4f4;*/
-  /*padding-top: 70px;*/
   padding-bottom: 30px;
-  background: #aaaebc;
-  background: url("../img/bg.jpg") no-repeat center center fixed;
+  background: #efefef;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25,22 +22,17 @@ body {
   max-width: 95%;
 }
 .columna-izquierda {
-  /*min-height: 1000px;*/
   min-height: 100vh;
-  /*background: #343e48;*/
-  background-color: rgba(0,0,0,0.5);
+  background-color: #343131;
   color: #FFFFFF;
 }
 .fa-columna-izquierda {
-  color: #FFFFFF;
-  font-size: 30px;
+  color: #2980B9;
+  font-size: 20px;
 }
 .text-columna-izquierda {
-  color: #FFFFFF;
-  font-size: 12px;
-}
-.columna-derecha {
-  /*border: ridge 1px blue;*/
+  color: #d9d9d9;
+  font-size: 14px;
 }
 .enlace_azul_sistema {
   color: #343e48;
@@ -48,14 +40,18 @@ body {
 .text-green {
   color: green;
 }
+.text-white {
+  color: #d9d9d9;
+}
 .btn-default {
   border: ridge 1px green;
 }
-.caja-izquierda {
-  /*border: ridge 1px blue;*/
-  /*border-right: 3px solid lightgray*/
+.header-columna-izquierda {
+  color: #2980B9;
 }
-.caja-derecha {
-  border: ridge 1px lightgray;
-  background: #FFFFFF;
+hr {
+  border-top: 1px solid gray;
+}
+.ancho {
+  width: 50%
 }

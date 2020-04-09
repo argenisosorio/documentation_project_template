@@ -24,7 +24,7 @@
   <!-- Styles - css
   ================================================== -->
   <link href="static/css/theme.css" rel="stylesheet">
-  <title>HOME</title>
+  <title>Index</title>
   </head>
 <body>
 <div class="bg-image"></div>
@@ -32,59 +32,75 @@
   <div class="row">
     <!-- Columna izquierda
     ================================================== -->
-    <div class="col-sm-1 columna-izquierda">
-      <div class="text-center mt-3 mb-4">
+    <div class="col-sm-2 columna-izquierda">
+      <div class="header-columna-izquierda text-center mt-3 mb-3">
         <a href="#" title="xxx">
-          <span class="text-columna-izquierda">
-            <b>HOME</b>
-          </span>
-        </a>
+          <i class="fa fa-home fa-sm fa-columna-izquierda"></i>
+          <b class="ml-1">Python GTK+ 3 Tutorial</b>
+        <a>
       </div>
-      <div class="text-center mt-3 mb-5">
-        <a href="#" title="xxx">
-          <i class="fa fa-user fa-lg fa-columna-izquierda"></i>
-        </a>
-      </div>
-      <div class="text-center mt-3 mb-5">
-        <a href="#" title="xxx">
-          <i class="fa fa-group fa-lg fa-columna-izquierda"></i>
-        </a>
-      </div>
-      <div class="text-center mt-3 mb-5">
-        <a href="#" title="xxx">
-          <i class="fa fa-wrench fa-lg fa-columna-izquierda"></i>
-        </a>
-      </div>
-      <div class="text-center mt-3 mb-5">
-        <a href="#" data-toggle="tooltip" title="xxx">
-          <i class="fa fa-sign-out fa-lg fa-columna-izquierda"></i>
-        </a>
-      </div>
+      <hr>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>1. Installation</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>2. Getting Started</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>3. Basics</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>4. How to Deal With Strings</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>5. Widget Gallery</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>6. Layout Containers</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>7. Label</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>8. Entry</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>9. Button Widgets</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>10. ProgressBar</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>11. Spinner</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>12. Tree and List Widgets</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>13. CellRenderers</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>14. ComboBox</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>15. IconView</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>16. Multiline Text Editor</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>17. Dialogs</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>18. Popovers</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>19. Clipboard</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>20. Drag and Drop</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>21. Glade and Gtk.Builder</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>22. Objects</b></a></div>
+      <div class="mb-2"><a href="#" class="text-columna-izquierda text-white"><b>23. Application</b></a></div>
     </div>
     <!-- Columna izquierda final -->
+    
     <!-- Columna derecha
     ================================================== -->
-    <div class="col-sm-11 columna-derecha">
+    <div class="col-sm-10 columna-derecha">
       <div class="container-fluid">
-        <h1>Hello!</h1>
-        <div class="card">
-          <div class="card-body">
-            This is some text within a card body.
+        <div class="ancho">
+          <div class="mt-2"><h3>1. Installation</h3></div>
+          <hr>
+          <p class="text-justify">Prior to working through this tutorial, it is recommended that you have a reasonable grasp of the Python programming language. GUI programming introduces new problems compared to interacting with the standard output (console / terminal). It is necessary for you to know how to create and run Python files, understand basic interpreter errors, and work with strings, integers, floats and Boolean values. For the more advanced widgets in this tutorial, good knowledge of lists and tuples will be needed.</p>
+          <div class="card mb-3">
+            <div class="card-body">
+              # apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0
+            </div>
           </div>
-        </div>
-      <br />
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <p class="text-justify">Prior to working through this tutorial, it is recommended that you have a reasonable grasp of the Python programming language. GUI programming introduces new problems compared to interacting with the standard output (console / terminal). It is necessary for you to know how to create and run Python files, understand basic interpreter errors, and work with strings, integers, floats and Boolean values. For the more advanced widgets in this tutorial, good knowledge of lists and tuples will be needed.</p>
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Source</h5>
+              <p class="card-text">
+              # -*- coding: utf-8 -*-<br>
+              import gi<br>
+              gi.require_version("Gtk", "3.0")<br>
+              from gi.repository import Gtk<br>
+              window = Gtk.Window(title="Hello World")<br>
+              window.show()<br>
+              window.connect("destroy", Gtk.main_quit)<br>
+              Gtk.main()
+              </p>
+              <a href="#" class="card-link">Download</a>
+            </div>
+          </div>
+          <p class="text-justify">Prior to working through this tutorial, it is recommended that you have a reasonable grasp of the Python programming language. GUI programming introduces new problems compared to interacting with the standard output (console / terminal). It is necessary for you to know how to create and run Python files, understand basic interpreter errors, and work with strings, integers, floats and Boolean values. For the more advanced widgets in this tutorial, good knowledge of lists and tuples will be needed.</p>
         </div>
       </div>
-    </div>
     <!-- Columna derecha final -->
-  </div>
+    </div>
 </div>
 </body>
 </html>
